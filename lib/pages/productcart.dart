@@ -13,7 +13,7 @@ class _ProductCartState extends State<ProductCart> {
   final _formKey = GlobalKey<FormState>();
   TextEditingController name = TextEditingController();
   TextEditingController location = TextEditingController();
-  List<String> payment = ['เงินสด', 'โอน', 'ไม่จ่าย'];
+  List<String> payment = ['เงินสด', 'บัตรเครดิต', 'โอนเงิน'];
   String? paymentMethod;
   bool isTermsAccepted = false;
 
